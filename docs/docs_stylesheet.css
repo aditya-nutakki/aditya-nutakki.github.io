@@ -797,7 +797,8 @@ p{
     }
     
     .indi-integraiton{
-        width: 300px !important;   
+        width: 300px !important;
+        background-color: red;
     }
     
 
