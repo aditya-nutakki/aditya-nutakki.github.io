@@ -796,6 +796,15 @@ p{
         height: 250px !important;
     }
     
+    .indi-integraiton{
+        width: 300px !important;   
+    }
+    
+    #mobile-plugins :first-child{
+        width: 225px !important;
+        height: 250px !important;
+    }
+    
 }
 
 @media only screen and (max-width:1064px){
