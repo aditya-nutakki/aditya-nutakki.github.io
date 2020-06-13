@@ -461,7 +461,7 @@ body{
     background-color: #f7f7f7;
     position: relative;
     transition: all 0.3s ease-in;
-    margin: 0 auto 15 auto;
+    margin: 0 auto;
     border-radius: 30px;
 }
 
