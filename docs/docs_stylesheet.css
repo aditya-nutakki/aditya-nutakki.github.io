@@ -787,6 +787,14 @@ p{
         font-size: 23px !important;
     }
     
+    .langs{
+        width: 300px !important;
+    }
+    
+    .plugins{
+        width: 225px !important; 
+        height: 250px !important;
+    }
     
 }
 

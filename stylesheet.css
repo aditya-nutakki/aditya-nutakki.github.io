@@ -959,7 +959,7 @@ body{
 @media only screen and (max-width:788px){
     
     h1{
-        font-size: 2.15rem !important;
+        font-size: 2.4rem !important;
     }
     
     
@@ -1163,7 +1163,11 @@ body{
         font-size: 3.5rem;
     }
     
-    
+    #contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 
