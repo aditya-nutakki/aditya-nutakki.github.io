@@ -1198,6 +1198,10 @@ body{
         font-size:3rem;
     }
     
+    #slider{
+        width: 100%;
+    }
+    
 }
 
 

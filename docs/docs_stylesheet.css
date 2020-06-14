@@ -464,7 +464,10 @@ p{
     grid-template-rows: 300px;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
-    grid-template-columns: repeat(auto-fit , minmax(330px , 1fr));
+    grid-template-columns: repeat(auto-fit , minmax(300px , 1fr));
+    margin: 0 auto;
+    width: 100% !important;
+    
 }
 
 #mobile-plugins i{
@@ -754,6 +757,8 @@ p{
     
     #integration{
         grid-auto-rows: 265px;
+        margin: 0 -22px;
+        
     }
     
     .indi-features{
@@ -798,9 +803,8 @@ p{
     }
     
     .indi-integraiton{
-        width: 280px !important;
+        width: 90% !important;
         margin: 0 auto !important;
-        background-color: blue;
     }
     
  
