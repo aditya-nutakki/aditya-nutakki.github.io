@@ -800,7 +800,10 @@ p{
         width: 275px !important;
     }
     
-
+    #integration{
+        display: flex !important;
+        flex-direction: column !important;
+    }
     
 }
 
