@@ -280,6 +280,7 @@ p{
 
 .indi-integraiton p{
     height: 60px;
+    text-align: center;
 }
 
 #third-integration p{
@@ -797,13 +798,17 @@ p{
     }
     
     .indi-integraiton{
-        width: 275px !important;
+        width: 300px !important;
+        margin: 0 auto;
     }
     
+ 
+/*
     #integration{
         display: flex !important;
         flex-direction: column !important;
     }
+*/
     
 }
 
