@@ -1,354 +1,204 @@
 *{
-    padding: 0px;
-    margin: 0px;
     font-family: Montserrat;
-
 }
 
 body{
-    background-color: #eee;
-}
-
-.profile{
+    margin: 0;
+    padding: 0;
     background-color: #283E4A;
-    height: 28vh;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
 }
 
-.profile-img{
-    position: relative;
-    top: 100%;
-    transform: translateY(-50%);
-}
-
-.profile-img img{
-    position: relative;
-    width: 148px;
-    height: 148px;
-    border: 5px solid #0077b5;
-    border-radius: 50%;
-    cursor: pointer;
+.loginbox{
+    width: 320px;
+    height: 593px;
+    background: #000;
+    color: #fff;
+    top: 53.5%;
     left: 50%;
-    transform: translateX(-50%);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 10px;
 }
 
-.profile-info{
-    margin-top: 100px;
-}
-
-.profile-info p{
-    text-align: center;
-}
-
-.username{
-    font-size: 32px;
-}
-
-.bio{
-    margin: 7px auto 0px auto;
-    font-size: 16px;
-    max-width: 200px;
-}
-
-.add-friend{
-    position: fixed;
-    bottom: 7%;
-    right:4%;
-    padding: 16px 10px ;
-    background-color: #0077b5;
-    border:2px solid white; 
+.avatar{
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
-    cursor: pointer;
-    font-size: 16px;
-    text-decoration: none;
-    color: white;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 42px;
     text-align: center;
-    transition: all 0.3s ease-in;
+    font-size: 22px;
 }
 
-.add-friend:hover{
-    background-color:#005e8f;
-}
-
-.additional-info{
-    display: flex !important;
-    flex-direction: column !important;
-    width: 50% !important;
-    margin: 30px auto 0px auto !important;
-}
-
-.rows{
-    display: flex !important;
-    justify-content: space-between !important;
-}
-
-.stats{
-    display: flex !important;
-    margin:20px !important;
-    width: 200px !important;
-    
-}
-
-
-.stats i{
-    color: #707070 !important;
-    font-size: 28px !important;
-    margin-right: 40px !important;
-    width: 20px !important;
-    text-align: left !important;
-}
-
-.stats p{
-    width: 140px !important;
-    margin-top: 10px !important;
-    text-align: left !important;
-}
-
-.stats p a{
-    text-decoration: none !important;
-    color: #003eba !important;
-}
-
-.additional-info hr{
-    color: #ccc;
-    width: 65%;
-    margin: 3rem auto 0px auto;
-}
-
-.recent-posts{
-    font-family: Montserrat;
-    font-size: 40px;
-    color: black;
-    text-align: center;
-    margin-top: 45px;
-    font-weight: 200;
-}
-
-
-
-#posts{
-    width: 600px;
-    background-color: #eee;
-    margin: 0 auto;
-    padding-top: 52px;
-}
-
-.post{
-    margin: 10px 0px;
-    box-shadow: 0px 1px 3px grey;
-    background-color: white;
-}
-
-.post p{
-    padding: 18px 20px;
-    font-family: Source Sans Pro;
-}
-
-.post hr{
-    color: #fcfcfc;
-}
-
-.connections{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.more-info{
-    font-size: 32px;
-    text-decoration: none;
-    color: black;
-    margin-right: 20px;
-}
-
-.more-info:hover{
-    opacity: 0.6;
-}
-
-.company-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.company-info{
-    display: flex;
-    flex-direction: row;
-    padding: 18px 20px;
-
-}
-
-.company-info img{
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-}
-
-
-.company-details{
-    display: flex;
-    flex-direction: column;
-}
-
-.company-details p{
-    color: black;
-    padding: 0px;
-    margin: 0px;
-    font-size: 14px;
-}
-
-.company-follow{
-    margin-top: 30px;
-
-}
-
-.company-follow a{
-    color: #0B79B4;
-    font-size: 32px;
-    text-decoration: none;
-    transition: all 0.1s ease-in;
-    font-size: 21px;
-    margin-right: 20px;
-}
-
-.company-follow b{
-    font-family: Source Sans Pro !important;
+.loginbox p{
+    margin: 0;
+    padding: 0;
     font-weight: 400;
 }
 
-.company-follow a:hover{
-    color: #0a5f8c;
-}
-
-.post-content p{
-    padding: 0px 20px 18px 20px !important;
-}
-
-
-.post-image img{
+.loginbox input{
     width: 100%;
-    height: 300px;
-    object-fit: cover;
+    margin-bottom: 20px;
 }
 
-.reactions{
-    display: flex;
-    flex-direction: row;
-    margin-left: 10px;
-}
-
-.reactions i{
+.creds::placeholder{
     font-size: 14px;
-    color: #0B79B4;
-    margin: 0 5px;
 }
 
-.clap{
-    color: #eed400  !important;
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
 }
-
-.heart{
-    color: hotpink !important;
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #0B79B4;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in;
+    margin-bottom: 10px;
 }
-
-.likes{
-    margin: 10px 5px !important;
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #036091;
 }
-
-.replies{
-    margin: 12px 30px;
-    padding: 0px;
-}
-
-.replies a{
-    color: #333;
+.loginbox a{
+    text-decoration: none;
     font-size: 12px;
-    text-decoration: none;
+    line-height: 20px;
+    color: #e8e8e8;
+    transition: all 0.3s ease-in;
 }
 
-.replies a:hover{
-    text-decoration: underline;
-}
-
-.feedback{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 16px;
+.loginbox a:hover
+{
+    color: white;
 }
 
 
-.react{
-    display: flex;
-    flex-direction: row;
-    margin: 10px 10px 10px 0px;
-    transition: all 0.1s ease-in;
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+/*  opacity: 0.85;*/
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+.col {
+  float: left;
+  width: 91%;
+  margin: auto;
+  margin-top: 6px;
+}
+
+.register{
+    position: relative;
+    top: 16px;
+}
+
+.or{
+    margin-bottom: 5px;
+    text-align: center;
 }
 
 
-.react i{
-    color: grey;
-    font-size: 20px;
-    margin-left: 20px;
-}
-
-.react a{
-    color: grey;
-    text-decoration: none;
-    font-size: 14px;
-    margin: 5px 0px 0px 9px;
-    transition: color 0.1s ease-in;
-}
-
-.react a:hover{
-    color: black;
-}
-
-.dont-display{
-    display: none !important;
-}
 
 
 
 
 
-@media (max-width:788px){
-    
-    .rows{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .additional-info{
-        width: 70% !important;
-    }
-    
-    
-    #posts{
-        width: 90%;
-    }
-    
-    .replies{
-        margin: 12px 20px;
-        padding: 0px;
-    }
-    
-    .react i{
-        font-size: 14px;
-        margin-left: 20px;
-    }
-
-    .react a{
-        font-size: 12px;
-        margin: 0px 0px 0px 2px;
-
-    }
-   
-    
-}
 
 
-@media (max-width : 1100px){
-    .additional-info{
-        width: 70% !important;
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
