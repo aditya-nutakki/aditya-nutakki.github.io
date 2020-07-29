@@ -261,14 +261,14 @@ body{
     margin: 0 0.3em;
 }
 
-.suggest-img {
+.suggestion img{
     width:85px;
     height:85px;
     object-fit: cover;
     border-radius: 50%;
 }
 
-.close-suggest {
+.close{
     position: absolute;
     top: 0.5em;
     right: 0.75em;
@@ -276,7 +276,7 @@ body{
     font-size: 0.85em;
 }
 
-.suggest-name {
+.username {
     width: 125px;
     font-size: 18px;
     font-weight: bold;
@@ -285,7 +285,7 @@ body{
     margin-top: 15px;
 }
 
-.suggest-info {
+.suggestion p {
     font-size: 0.75em;
     color: #b4b4b4;
     text-align: center;
@@ -293,7 +293,7 @@ body{
     margin-bottom: auto;
 }
 
-.suggest-button {
+.suggestion button {
     width: 120%;
     padding: 6px 0px;
     text-align: center;
