@@ -248,8 +248,8 @@ body{
 }
 
 .suggestion {
-    width: 11em;
-    padding: 0.75em 0.85em;
+    width: 170px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -257,7 +257,7 @@ body{
     position: relative;
     background-color: white;
     border: 1px solid gainsboro;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 0 0.3em;
 }
 
@@ -282,7 +282,7 @@ body{
     font-weight: bold;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .suggest-info {
@@ -294,12 +294,12 @@ body{
 }
 
 .suggest-button {
-    width: 100%;
+    width: 120%;
     padding: 6px 0px;
     text-align: center;
     border: none;
     background-color: #0081d6;
-    border-radius: 4px;
+    border-radius: 15px;
     color: white;
     font-weight: bold;
     margin-top: 0.75em;
